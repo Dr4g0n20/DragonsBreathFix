@@ -1,0 +1,23 @@
+# DragonsBreathFix configuration
+# Area-effect clouds remain active on the server. Only their client-side entity
+# spawn packets are hidden, so vanilla potion effects and damage are preserved.
+
+# Show ordinary splash-potion-style particles where hidden clouds are active.
+particles:
+  enabled: true
+
+  # How often to display particles. Lower values create denser effects.
+  interval-ticks: 4
+
+  # Number of particles emitted per cloud each interval.
+  count-per-cloud: 6
+
+  # Use each cloud's configured potion colour.
+  use-cloud-colour: true
+
+  # Particle height above the cloud's centre.
+  height-offset: 0.15
+
+# Hide all outgoing AreaEffectCloud entity spawn packets from clients.
+# Keep this enabled to prevent the Eaglercraft client crash.
+hide-cloud-entities: true
