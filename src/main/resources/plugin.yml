@@ -1,0 +1,6 @@
+name: DragonsBreathFix
+main: net.dr4g0n20.dragonsbreathfix.DragonsBreathFix
+version: 1.0.0
+author: Dr4g0n20
+description: Hides area-effect-cloud entities from clients while preserving server-side potion effects.
+softdepend: [ProtocolLib]
